@@ -2,9 +2,11 @@
 @import url(./mobile.css);
 
 @media (min-width: 441px) {
+
     header {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         height: 8rem;
         background-color: var(--surface-color);
         padding: 2rem 3.2rem;
@@ -23,11 +25,11 @@
 
             svg {
                 width: 3.2rem;
+                height: 3.2rem;
             }
 
             svg:hover {
                 cursor: pointer;
-
                 path {
                     fill: var(--brand-color);
                 }
@@ -154,5 +156,5 @@
         text-decoration: underline;
         color:#EF5F4C;
     }
-}
 
+}

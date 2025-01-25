@@ -1,0 +1,158 @@
+@import url(./global.css);
+@import url(./mobile.css);
+
+@media (min-width: 441px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 8rem;
+        background-color: var(--surface-color);
+        padding: 2rem 3.2rem;
+
+        header img {
+            width: 16.2rem;
+        }
+
+        #search {
+            width: 32.5rem;
+            height: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+
+            svg {
+                width: 3.2rem;
+            }
+
+            svg:hover {
+                cursor: pointer;
+
+                path {
+                    fill: var(--brand-color);
+                }
+            }
+        }
+    }
+
+    #profile-pic {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 24rem;
+        background-color: var(--surface-color);
+        padding: 3.2rem;
+    }
+
+    #container-about-me {
+        display: flex;
+        align-items: center;
+        gap: 3.2rem;
+        width: 70rem;
+        height: 17.6rem;
+    }
+
+    #container-about-me img {
+        width: 17.6rem;
+        height: 17.6rem;
+        border-radius: 50%;
+    }
+    #about-me {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+
+    #about-me h2 {
+        font-size: 3.2rem;
+        color: var(--text-color-primary);
+    }
+
+    #about-me h2:hover {
+        color:#EF5F4C;
+        cursor: pointer;
+    }
+
+    #about-me p {
+        font: var(--text-md);
+        color: var(--text-color-secondary);
+        line-height: 170%;
+    }
+
+    #more-infos {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+        width: 28rem;
+    }
+
+    #more-infos img {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    #more-infos p {
+        color: #6C6C6C;
+        font-size: 1.4rem;
+        line-height: 170%;
+    }
+
+    #location, #travel, #total-pictures {
+        display: flex;
+        align-items: center;
+        gap: .6rem;
+    }
+
+    main {
+        background-color: #FFFFFF;
+        padding: 2.4rem 3.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2.4rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    main img {
+        width: 28.6rem;
+        height: 28.6rem;
+        border-radius: .5rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 7rem;
+        padding: 2.4rem 3.2rem;
+    }
+
+    footer p, footer a {
+        font: var(--font-md);
+        color: var(--text-color-secondary);
+        line-height: 150%;
+    }
+
+    #links {
+        display: flex;
+        gap: 1.6rem;
+    }
+
+    footer a {
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+        color:#EF5F4C;
+    }
+}
+

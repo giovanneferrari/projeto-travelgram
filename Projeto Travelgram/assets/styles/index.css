@@ -24,8 +24,8 @@
             gap: 2rem;
 
             svg {
-                width: 3.2rem;
-                height: 3.2rem;
+                width: 2.4rem;
+                height: 2.4rem;
             }
 
             svg:hover {
@@ -34,13 +34,13 @@
                     fill: var(--brand-color);
                 }
             }
-        }
-    }
 
-    #profile-pic {
-        width: 4rem;
-        height: 4rem;
-        border-radius: 50%;
+            #profile-pic {
+                width: 4rem;
+                height: 4rem;
+                border-radius: 50%;
+            }
+        }
     }
 
     .profile {
@@ -50,65 +50,66 @@
         height: 24rem;
         background-color: var(--surface-color);
         padding: 3.2rem;
-    }
 
-    #container-about-me {
-        display: flex;
-        align-items: center;
-        gap: 3.2rem;
-        width: 70rem;
-        height: 17.6rem;
-    }
+        #container-about-me {
+            display: flex;
+            align-items: center;
+            gap: 3.2rem;
+            width: 70rem;
+            height: 17.6rem;
 
-    #container-about-me img {
-        width: 17.6rem;
-        height: 17.6rem;
-        border-radius: 50%;
-    }
-    #about-me {
-        display: flex;
-        flex-direction: column;
-        gap: 1.6rem;
-    }
+            img {
+                width: 17.6rem;
+                height: 17.6rem;
+                border-radius: 50%;
+            }
 
-    #about-me h2 {
-        font-size: 3.2rem;
-        color: var(--text-color-primary);
-    }
+            #about-me {
+                display: flex;
+                flex-direction: column;
+                gap: 1.6rem;
 
-    #about-me h2:hover {
-        color:#EF5F4C;
-        cursor: pointer;
-    }
+                h2 {
+                    font-size: 3.2rem;
+                    color: var(--text-color-primary);
+                }
 
-    #about-me p {
-        font: var(--text-md);
-        color: var(--text-color-secondary);
-        line-height: 170%;
-    }
+                h2:hover {
+                    color:#EF5F4C;
+                    cursor: pointer;
+                }
 
-    #more-infos {
-        display: flex;
-        flex-direction: column;
-        gap: 1.6rem;
-        width: 28rem;
-    }
+                p {
+                    font: var(--text-md);
+                    color: var(--text-color-secondary);
+                    line-height: 170%;
+                }
+            }
+        }
 
-    #more-infos img {
-        width: 2.4rem;
-        height: 2.4rem;
-    }
+        .more-infos {
+            display: flex;
+            flex-direction: column;
+            gap: 1.6rem;
+            width: 28rem;
 
-    #more-infos p {
-        color: #6C6C6C;
-        font-size: 1.4rem;
-        line-height: 170%;
-    }
+            img {
+                width: 2.4rem;
+                height: 2.4rem;
+            }
 
-    #location, #travel, #total-pictures {
-        display: flex;
-        align-items: center;
-        gap: .6rem;
+            p {
+                color: #6C6C6C;
+                font-size: 1.4rem;
+                line-height: 170%;
+            }
+        
+            .more-infos-icon {
+                display: flex;
+                align-items: center;
+                gap: .6rem;
+            }
+        }
     }
 
     main {

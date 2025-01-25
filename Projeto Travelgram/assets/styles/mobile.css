@@ -75,13 +75,13 @@
             }
         }
 
-        #more-infos {
+        .more-infos {
             display: flex;
             flex-direction: column;
             gap: 1.6rem;
             width: 28rem;
 
-            #location, #travel, #total-pictures {
+            .more-infos-icon {
                 display: flex;
                 align-items: center;
                 gap: .8rem;

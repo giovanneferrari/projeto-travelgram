@@ -3,6 +3,11 @@
 
 @media (min-width: 441px) {
 
+    body {
+        max-width: 1280px;
+        margin: auto;
+    }
+
     header {
         display: flex;
         justify-content: space-between;
@@ -128,8 +133,8 @@
         width: 28.6rem;
         height: 28.6rem;
         border-radius: .5rem;
+        transform: scale(1.1) 2s ease;
     }
-
     footer {
         display: flex;
         justify-content: space-between;
